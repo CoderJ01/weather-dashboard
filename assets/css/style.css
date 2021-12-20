@@ -1,0 +1,14 @@
+body {
+    width: 94%;
+    margin-left: 3%;
+}
+
+header {
+    border: 5px solid red;
+    padding-top: 4%;
+}
+
+main {
+    border: 5px solid blue;
+    padding-top: 43%;
+}
