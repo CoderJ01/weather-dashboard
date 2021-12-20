@@ -5,10 +5,31 @@ body {
 
 header {
     border: 5px solid red;
-    padding-top: 4%;
+    padding-bottom: 4%;
 }
 
 main {
     border: 5px solid blue;
-    padding-top: 43%;
+    padding-bottom: 43%;
+    display: flex;
+    position: relative;
+}
+
+.search {
+    border: 3px solid green;
+    width: 30%;
+    height: 85%;
+    margin-left: 2.5%;
+}
+
+.conditions {
+    border: 3px solid yellow;
+    width: 61%;
+    height: 80%;
+    margin-left: 36%;
+}
+
+.search, .conditions {
+    position: absolute;
+    margin-top: 1%;
 }
