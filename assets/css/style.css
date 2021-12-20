@@ -67,10 +67,6 @@ main {
     margin-left: 5%;
 }
 
-.current h2 {
-    
-}
-
 .first, .second, .third, .fourth, .fifth {
     border: 1px solid grey;
     width: 18%;
@@ -79,16 +75,46 @@ main {
 .search-heading {
     border: 1px solid black;
     height: 10%;
+}
 
+.search-heading h2 {
+    text-align: center;
 }
 
 .bar {
     border: 1px solid black;
     height: 20%;
+}
 
+.bar input {
+    width: 70%;
+    height: 40%;
+    border-radius: 5px;
+}
+
+.bar button {
+    width: 72%;
+    height: 35%;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: #3296F0;
+    color: white;
+}
+
+.bar input, .bar button {
+    margin-left: 50px;
 }
 
 .popular {
     border: 1px solid black;
     height: 68%;
+}
+
+.popular button {
+   margin-left: 50px;
+   width: 72%;
+   height: 9%;
+   border-radius: 5px;
+   background-color: ##ABB2B9;
+   margin-top: 10px;
 }
