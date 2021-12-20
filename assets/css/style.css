@@ -61,3 +61,20 @@ main {
     border: 1px solid grey;
     width: 18%;
 }
+
+.search-heading {
+    border: 1px solid black;
+    height: 10%;
+
+}
+
+.bar {
+    border: 1px solid black;
+    height: 20%;
+
+}
+
+.popular {
+    border: 1px solid black;
+    height: 68%;
+}
