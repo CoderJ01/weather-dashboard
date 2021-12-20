@@ -78,6 +78,8 @@ main {
 .first, .second, .third, .fourth, .fifth {
     border: 1px solid grey;
     width: 18%;
+    background-color: #273746;
+    color: white;
 }
 
 .search-heading {
