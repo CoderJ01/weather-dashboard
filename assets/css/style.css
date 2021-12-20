@@ -1,36 +1,38 @@
 body {
     width: 94%;
     margin-left: 3%;
+    background-color: #AEB6BF;
 }
 
 header {
-    border: 5px solid #ff0000;
     text-align: center;
     height: 60px;
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 0%, rgba(13,13,99,1) 100%);
     color: white;
+    padding-top: 5px;
 }
 
 header h1 {
-    margin-top: 12px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.title {
+   margin-top: 50px;
 }
 
 main {
-    border: 5px solid blue;
     padding-bottom: 43%;
-    position: relative;
 }
 
 .search {
-    border: 3px solid green;
     width: 30%;
     height: 85%;
     margin-left: 2.5%;
 }
 
 .conditions {
-    border: 3px solid yellow;
     width: 61%;
     height: 80%;
     margin-left: 36%;
@@ -42,8 +44,9 @@ main {
 }
 
 .current {
-    border: 2px solid orange;
+    border: 2px solid black;
     height: 42%;
+    background-color: white;
 }
 
 .current h2 {
@@ -51,7 +54,6 @@ main {
 }
 
 .forecast-heading {
-    border: 2px solid brown;
     height: 8%;
 }
 
@@ -60,7 +62,6 @@ main {
 }
 
 .days {
-    border: 2px solid purple;
     height: 40%;
     display: flex;
     justify-content: space-around;
@@ -83,7 +84,6 @@ main {
 }
 
 .search-heading {
-    border: 1px solid black;
     height: 10%;
 }
 
@@ -92,7 +92,6 @@ main {
 }
 
 .bar {
-    border: 1px solid black;
     height: 20%;
 }
 
@@ -110,7 +109,6 @@ main {
 }
 
 .popular {
-    border: 1px solid black;
     height: 68%;
 }
 
