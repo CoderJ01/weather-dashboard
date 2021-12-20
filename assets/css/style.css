@@ -32,6 +32,13 @@ main {
     margin-left: 2.5%;
 }
 
+.search hr {
+    height: 2px;
+    width: 72%;
+    background-color: black;
+    margin-left: 49px;
+}
+
 .conditions {
     width: 61%;
     height: 80%;
