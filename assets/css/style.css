@@ -11,7 +11,6 @@ header {
 main {
     border: 5px solid blue;
     padding-bottom: 43%;
-    display: flex;
     position: relative;
 }
 
@@ -39,10 +38,17 @@ main {
     height: 42%;
 }
 
+.current h2 {
+    margin-top: 2px;
+}
+
 .forecast-heading {
     border: 2px solid brown;
     height: 8%;
+}
 
+.forecast-heading h3 {
+    margin-top: 8px;
 }
 
 .days {
@@ -52,9 +58,17 @@ main {
     justify-content: space-around;
 }
 
+.days p {
+    margin-top: 2px;
+}
+
 .current, .forecast-heading, .days {
     width: 90%;
     margin-left: 5%;
+}
+
+.current h2 {
+    
 }
 
 .first, .second, .third, .fourth, .fifth {
