@@ -48,9 +48,16 @@ main {
 .days {
     border: 2px solid purple;
     height: 40%;
+    display: flex;
+    justify-content: space-around;
 }
 
 .current, .forecast-heading, .days {
     width: 90%;
     margin-left: 5%;
+}
+
+.first, .second, .third, .fourth, .fifth {
+    border: 1px solid grey;
+    width: 18%;
 }
