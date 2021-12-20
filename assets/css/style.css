@@ -33,3 +33,24 @@ main {
     position: absolute;
     margin-top: 1%;
 }
+
+.current {
+    border: 2px solid orange;
+    height: 42%;
+}
+
+.forecast-heading {
+    border: 2px solid brown;
+    height: 8%;
+
+}
+
+.days {
+    border: 2px solid purple;
+    height: 40%;
+}
+
+.current, .forecast-heading, .days {
+    width: 90%;
+    margin-left: 5%;
+}
