@@ -4,8 +4,16 @@ body {
 }
 
 header {
-    border: 5px solid red;
+    border: 5px solid #ff0000;
     text-align: center;
+    height: 60px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 0%, rgba(13,13,99,1) 100%);
+    color: white;
+}
+
+header h1 {
+    margin-top: 12px;
 }
 
 main {
@@ -89,20 +97,14 @@ main {
 .bar input {
     width: 70%;
     height: 40%;
-    border-radius: 5px;
 }
 
 .bar button {
     width: 72%;
     height: 35%;
     margin-top: 10px;
-    border-radius: 5px;
     background-color: #3296F0;
     color: white;
-}
-
-.bar input, .bar button {
-    margin-left: 50px;
 }
 
 .popular {
@@ -111,10 +113,13 @@ main {
 }
 
 .popular button {
-   margin-left: 50px;
    width: 72%;
    height: 9%;
-   border-radius: 5px;
-   background-color: ##ABB2B9;
+   background-color: #D5D8DC;
    margin-top: 10px;
+}
+
+.bar input, .bar button, .popular button {
+    margin-left: 50px;
+    border-radius: 5px;
 }
