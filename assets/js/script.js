@@ -12,25 +12,28 @@ async function infoChicago () {
     document.getElementById('c-humidity').textContent = data.current.humidity;
     document.getElementById('c-uv').textContent = data.current.uvi;
 
-    document.getElementById('f-temp').textContent = data.current.temp;
-    document.getElementById('f-wind').textContent = data.current.wind_speed + " ";
-    document.getElementById('f-humidity').textContent = data.current.humidity;
+    console.log();
 
-    // document.getElementById('s-temp').textContent = data.current.temp;
-    // document.getElementById('s-wind').textContent = data.current.wind_speed + " ";
-    // document.getElementById('s-humidity').textContent = data.current.humidity;
+    document.getElementById('f-temp').textContent = data.daily[1].temp.day
+    document.getElementById('f-wind').textContent = data.daily[1].wind_speed + " ";
+    document.getElementById('f-humidity').textContent = data.daily[1].humidity;
 
-    // document.getElementById('t-temp').textContent = data.current.temp;
-    // document.getElementById('t-wind').textContent = data.current.wind_speed + " ";
-    // document.getElementById('t-humidity').textContent = data.current.humidity;
+    document.getElementById('s-temp').textContent = data.daily[2].temp.day
+    document.getElementById('s-wind').textContent = data.daily[2].wind_speed + " ";
+    document.getElementById('s-humidity').textContent = data.daily[2].humidity;
 
-    // document.getElementById('o-temp').textContent = data.current.temp;
-    // document.getElementById('o-wind').textContent = data.current.wind_speed + " ";
-    // document.getElementById('o-humidity').textContent = data.current.humidity;
+    document.getElementById('t-temp').textContent = data.daily[3].temp.day
+    document.getElementById('t-wind').textContent = data.daily[3].wind_speed + " ";
+    document.getElementById('t-humidity').textContent = data.daily[3].humidity;
 
-    // document.getElementById('i-temp').textContent = data.current.temp;
-    // document.getElementById('i-wind').textContent = data.current.wind_speed + " ";
-    // document.getElementById('i-humidity').textContent = data.current.humidity;
+    document.getElementById('o-temp').textContent = data.daily[4].temp.day
+    document.getElementById('o-wind').textContent = data.daily[4].wind_speed + " ";
+    document.getElementById('o-humidity').textContent = data.daily[4].humidity;
+
+    document.getElementById('i-temp').textContent = data.daily[5].temp.day
+    document.getElementById('i-wind').textContent = data.daily[5].wind_speed + " ";
+    document.getElementById('i-humidity').textContent = data.daily[5].humidity;
+
 }
 
 async function infoAustin () {
