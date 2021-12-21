@@ -1,24 +1,3 @@
-function displayDateToday() {
-    var today = new Date();
-    var day = today.getDate();
-
-    var month = today.getMonth() + 1;
-    var year = today.getFullYear();
-
-    if(day < 10) {
-        day = '0' + day;
-    }
-
-    if(month < 10) {
-        month = '0' + month;
-    }
-
-    today = month + '/' + day + '/' + year;
-    return today;
-}
-
-var today = displayDateToday();
-
 async function infoChicago () {
     var weather = 'https://api.openweathermap.org/data/2.5/onecall?lat=33.44&&units=imperial&lon=-94.04&exclude=hourly&appid=3f2e409528a52056b62087fa623591ee';
 
@@ -27,6 +6,9 @@ async function infoChicago () {
     console.log(data);
     console.log(today);
     var temp  = data;
+
+    var today = moment().format('L');
+    console.log(today);
 
     document.getElementById('city').textContent = "Chicago " + today;
     document.getElementById('c-temp').textContent = data.current.temp;
